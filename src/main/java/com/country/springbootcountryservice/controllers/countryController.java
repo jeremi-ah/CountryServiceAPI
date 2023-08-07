@@ -65,8 +65,7 @@ public class countryController{
 
        }
 
-
-    }
+        }
     @DeleteMapping("deletecountry/{id}")
     public AddResponse deleteCountry(@PathVariable(value = "id") int id){
      return   countryService.deleteCountry(id);
